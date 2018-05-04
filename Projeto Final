@@ -42,7 +42,8 @@ for c in range (0,21):
                     elif q >=16 and q <=20:
                                nome_do_botao='botao_linha' + str(q)  + ' coluna' + str(c)
                                Botoes[nome_do_botao]=Button(q,c)
-                               
+       print(Botoes) 
+  
 labelgrande=Quadrante_Horizontal(6,0)
 labelgrande=Quadrante_Horizontal(14,0)
 labelgrande=Quadrante_Vertical(6,0)
